@@ -12,3 +12,11 @@ class Random
   end
 
 end
+
+class Wordship
+
+  def self.getRandomNumber()
+    scale = [25, 50, 75, 100]
+    return scale.sample
+  end
+end
